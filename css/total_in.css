@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.context h1 {
+  color: #ede6db;
+  font-size: 35px;
+  padding: 24px;
+}
+body {
+  font-family: "Exo", sans-serif;
+  background: -moz-linear-gradient(left, #1d5c63 0, #417d7a 100%);
+  background: -webkit-linear-gradient(left, #1d5c63 0, #417d7a 100%);
+  background: linear-gradient(to right, #1d5c63 0, #417d7a 100%);
+}
+.login-content {
+  display: flex;
+  background-color: #1B2021;
+  padding: 48px;
+  justify-content:center ;
+  max-width: 400px;
+  margin: 0 auto;
+  height: 380px;
+}
+
+.login-content h1{
+  color: azure;
+}
+
+form > div {
+  padding-top: 10px;
+}
+
+.hybrid-login-form .hybrid-login-form-main {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -moz-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  padding-bottom: 16px;
+  
+}
+.hybrid-login-form-main h1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.nffname ,.nfpassword,.nfemail,.nflname,.nfphone{
+  padding-bottom: 0px;
+  max-width: 100%;
+}
+.nfemailcontrol ,.nfpasswordcontrol,.nffnamecontrol,.nflnamecontrol,.nfphonecontrol{
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.placelabel{
+  color: #fff;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  line-height: 1em;
+  vertical-align: middle;
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0;
+  position: relative;
+  color: #000;
+  background-color: #e6e6e6;
+  -webkit-box-shadow: 0 1px 0 rgb(0 0 0 / 20%);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 0 rgb(0 0 0 / 20%);
+}
+
+.login-button.btn {
+  width: 100%;
+  background: #ede6db;
+}
+
+.btn.btn-small {
+  display: block;
+  width: 50%;
+  padding: 0;
+  margin: 2.5em auto;
+  line-height: 50px;
+}
+
+.btn-submit {
+  color: #1a3c40;
+  background-color: #0080ff;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#0080ff),
+    to(#0277ec)
+  );
+  background-image: -webkit-linear-gradient(top, #0080ff, #0277ec);
+  background-image: -moz- oldlinear-gradient(top, #0080ff, #0277ec);
+  background-image: -o-linear-gradient(top, #0080ff, #0277ec);
+  background-image: linear-gradient(to bottom, #0080ff, #0277ec);
+  -webkit-box-shadow: 0 1px 0 rgb(0 0 0 / 55%);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.55);
+  box-shadow: 0 1px 0 rgb(0 0 0 / 55%);
+}
+
+.emailinput , .passwordinput,.fnameinput,.lnameinput,.phoneinput {
+  background: #2d343e;
+  border: 1px solid #2d343e;
+  
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #fff;
+  font-size: 16px;
+  height: 20px;
+  padding: 10px;
+  font-family: 'poppins', sans-serif;
+  padding-left: 30px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.logout {
+  float: right;
+  padding: 16px;
+  
+}
+
+a:link,
+a:visited {
+  background-color: #ede6db;
+  color: #1a3c40;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: #e5dccc;
+}
+
+.empty{  
+  color: #ede6db;
+  text-align: center;
+}
+
+
