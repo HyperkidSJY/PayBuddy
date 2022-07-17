@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700");
+body {
+  font-family: "Exo", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.context {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.context h1 {
+  color: #ede6db;
+  font-size: 35px;
+}
+
+body {
+  background: -moz-linear-gradient(left, #1d5c63 0, #417d7a 100%);
+  background: -webkit-linear-gradient(left, #1d5c63 0, #417d7a 100%);
+  background: linear-gradient(to right, #1d5c63 0, #417d7a 100%);
+}
+
+a:link,
+a:visited {
+  background-color: #ede6db;
+  color: #1a3c40;
+  padding: 10px 20px;
+  margin: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: #e5dccc;
+}
+
+table {
+  border-collapse: collapse;
+  border: #000;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 0.8rem;
+  font-size: 1.4rem;
+}
+
+td{
+	background-color: #eee;
+}
+tbody {
+  background-color: none;
+  color: #555;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  thead {
+    display: none;
+  }
+
+  td {
+    display: block;
+  }
+
+  td:first-child {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+
+  td:nth-child(2)::before {
+    content: "Total In";
+  }
+
+  td:nth-child(3)::before {
+    content: "Total Out";
+  }
+
+  
+
+  td {
+    text-align: right;
+  }
+
+  td::before {
+    float: left;
+    margin-right: 3rem;
+    font-weight: bold;
+  }
+}
+
+.link{
+	background-color: #357272;
+	
+	border: none;
+}
+
+.temp{
+	padding-top: 15vh;
+}
+
