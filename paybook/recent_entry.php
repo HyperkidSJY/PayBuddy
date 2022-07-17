@@ -75,7 +75,7 @@
         <?php echo "<a href='add_entry2.php'>Add entries</a>" ?>&nbsp;
         <?php echo "<a href='total_in_2.php'>Cash in</a>" ?>&nbsp;<br>
         <div class="home">
-        <?php echo "<a href='recent.php'>Home</a>" ?>&nbsp;
+        <?php echo "<a href='paybook.html'>Home</a>" ?>&nbsp;
         </div>
     </div>
     </div>
